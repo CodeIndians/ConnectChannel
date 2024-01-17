@@ -1,0 +1,12 @@
+﻿<Window x:Class="YourNamespace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Transparent Chat App" Height="350" Width="525">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Enter Channel ID:"/>
+            <TextBox x:Name="channelIdTextBox"/>
+            <Button Content="Connect" Click="ConnectButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
